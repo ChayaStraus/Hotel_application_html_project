@@ -1,0 +1,227 @@
+:root{
+    scroll-behavior: smooth;
+}
+.p{
+padding: 2rem;
+
+}
+p{
+    font-size: 3vh;
+}
+.room{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+    padding: 3rem; 
+}
+button{
+    background-color: gray;
+    color: white;
+}
+.img{
+    width: 350%;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.859);  
+    align-items: center;
+}
+.img img{
+    padding: 0.4rem;
+}
+.a img{
+    width: 90%;
+    
+}
+.b img{
+    width: 115%;
+}
+.b{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.c img{
+    width: 87%;  
+}
+*{
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    text-align: center;
+    font-size: 1.4rem;  
+}
+nav a{
+   padding: 1rem;
+   color:rgba(175, 0, 0, 0.64); 
+   text-decoration:none;
+}
+nav a:hover{
+    background-color: rgba(175, 0, 0, 0.64);
+    color: white;
+}
+#upPage{
+    width: 20vh;
+    display: flex;
+}
+#activ{
+    background-color:rgba(175, 0, 0, 0.64);
+    color: white;
+}
+footer{
+    background-color: rgb(196, 196, 196);
+    margin: 1.5rem;
+}
+footer img{
+    width: 6vh;
+    position: relative;
+    left: 39px;
+    bottom: -52px;
+}
+.i{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    margin: -1rem;
+    align-items: stretch;
+}
+.allFooter{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+.aFooter{
+    display: flex;
+}
+.pratim{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.aFooter a{
+    color: black;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+.aFooter nav a:hover{
+    background-color:rgb(196, 196, 196);
+    color: black;
+    font-size: 1.15rem;
+}
+.pratim h2{
+    color: black;
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0.5rem;
+    flex-direction: row-reverse;
+ }
+ .allHeader img{
+    width: 5vh;
+    display: none;
+}
+ #up img{
+    width: 4vw;
+     position: static;
+     bottom: 33px;
+     left: 45px;
+}
+.chat img{
+    width: 10vh;
+    position: fixed;
+    bottom: 31px;
+    left: 39px;
+}
+header nav{
+    position: sticky;
+    top: 0;
+}
+@media screen and (max-width:1024px){
+.pratim h2{
+    font-size: 0.9rem;
+}
+.aFooter a{
+    font-size: 0.9rem;
+}
+.aFooter nav a:hover{
+    font-size: 1rem;
+}
+nav {
+    font-size: 1.14rem;  
+}
+.room{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.img{
+    width: 80%;  
+}
+}
+
+@media screen and (max-width:600px){
+    .aa{
+        display: none;
+        position: absolute;
+        width: 25rem;
+    }
+    .allHeader img{
+        display: inline;
+    }
+    .allHeader:hover .aa{
+        display: inline;
+    }
+    header nav{
+        width: 35%;
+        display: flex;
+        flex-direction:column;
+        font-size: 1rem;
+        background-color: rgb(176, 175, 175);
+    
+        }
+        header nav a{
+          color: black;  
+        }
+        header nav a:hover{
+            background-color:rgb(176, 175, 175); 
+        }
+    .pratim h2{
+        font-size: 0.6rem;
+    }
+    .aFooter a{
+        font-size: 0.6rem;
+    }
+    .aFooter nav a:hover{
+        font-size: 0.65rem;
+    }
+    .img{
+        width: 115%;
+        display: flex;
+        justify-content: center;
+        gap: 3.5px;
+    }
+    .room{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .room .img>div{
+        width: 100%;
+    }
+    .room .img> .b{
+        width: 100%;
+    }
+}
+
+.img{
+    justify-content: center;
+    gap: 3.5px;
+}
+.room .img>div{
+    width:35%;
+}
+.room .img> .b{
+    width:24%;
+}
+.room .img img{
+    width:100%;
+}
