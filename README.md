@@ -1,47 +1,23 @@
-# אפליקציית מלון רמדה
-### תיאור
-אפליקציה זו נועדה לספק לאורחי מלון רמדה חוויה נוחה ואינפורמטיבית. באמצעות האפליקציה, האורחים יכולים:
+# 🏨 אתר מלון רמדה
+### תיאור האתר
+האתר נועד לספק לאורחי מלון רמדה חוויה נוחה עם מידע ותמונות של המלון.
 
-לצפות בסוגי החדרים השונים במלון
+### תכונות עיקריות
+🔸לצפות בסוגי החדרים השונים במלון 
 
-לצפות בגלריית תמונות של המלון והחדרים
+🔸לצפות בגלריית תמונות של המלון והחדרים
 
-לקבל מידע על המלון (אודות המלון)
+🔸לקבל מידע על המלון (אודות המלון)
 
-למצוא מפה עם הוראות הגעה למלון
+🔸למצוא מפה עם הוראות הגעה למלון
 
-להשאיר הודעה למלון
+🔸להשאיר הודעה למלון
 
-### טכנולוגיות בשימוש
-html,css
+### טכנולוגיות
+🔸html
+🔸css
 
-### התקנה
-שכפל את המאגר:
-    git clone https://github.com/ChayaStraus/Hotel_application_html_project.git
+### הוראות התקנה
 
-### תרומה
-אם ברצונך לתרום לפרויקט, אנא בצע את הפעולות הבאות:
+  
 
-בצע Fork למאגר
-צור ענף (Branch) עבור הפיצ'ר שלך: git checkout -b feature/your-feature
-בצע Commit לשינויים שלך: git commit -am 'Add some feature'
-בצע Push לענף: git push origin feature/your-feature
-פתח בקשת משיכה (Pull Request)
-רישיון
-[סוג הרישיון]
-
-יצירת קשר
-[כתובת אימייל]
-[קישור לאתר המלון]
-[מספר טלפון]
-קרדיטים
-[שמות המפתחים]
-[שמות התורמים]
-הערות נוספות
-[הערות נוספות על הפרויקט]
-[הוראות לשימוש ב-API (אם רלוונטי)]
-[הוראות לשימוש במסד הנתונים (אם רלוונטי)]
-תמונות מסך (אופציונלי)
-[הוסף תמונות מסך של האפליקציה]
-סרטון הדגמה (אופציונלי)
-[הוסף קישור לסרטון הדגמה של האפליקציה]
