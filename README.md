@@ -16,7 +16,7 @@
 html,css
 
 ### התקנה
-שכפל את המאגר: 
+שכפל את המאגר:
     git clone https://github.com/ChayaStraus/Hotel_application_html_project.git
 
 ### תרומה
